@@ -1,0 +1,1 @@
+find ./Source/census2020-das-2010ddp-master ./Source/census2020-das-e2e-master -type f ! -name "*.*" -o -name "*.txt" -o -name "*.pdf" -o -name "*.docx" -o -name "*.doc" -o -name "*.xls", -o -name "*.xlsx" -o -name "*.md" > das_doc_files.txt
